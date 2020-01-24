@@ -1,6 +1,6 @@
-angular.module('routerTestApp', ['ui.router']);
+angular.module('myApp', ['ui.router']);
 
-angular.module('routerTestApp').config(['$stateProvider','$urlRouterProvider', function($stateProvider,$urlRouterProvider){
+angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function($stateProvider,$urlRouterProvider){
     // set default state
     $urlRouterProvider.otherwise("/state1");
     // set up states
