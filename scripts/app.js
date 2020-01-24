@@ -13,4 +13,8 @@ angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function(
             url: '/queue',
             templateUrl : 'scripts/states/queue.html'
     })
+        .state('race', {
+            url: '/race',
+            templateUrl : 'scripts/states/race.html'
+    })
 }]);
