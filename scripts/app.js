@@ -9,8 +9,8 @@ angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function(
             url: '/onboarding',
             templateUrl : 'scripts/states/onboarding.html'
     })
-        .state('state2', {
-            url: '/state2',
-            templateUrl : 'scripts/states/state2.html'
+        .state('queue', {
+            url: '/queue',
+            templateUrl : 'scripts/states/queue.html'
     })
 }]);
