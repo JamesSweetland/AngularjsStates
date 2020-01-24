@@ -3,3 +3,16 @@ body{
   background-color: #996666;
   color: #ffffff;
 }
+
+.btn:link, .btn:visited{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover, .btn:active{
+  background-color: red;
+}
