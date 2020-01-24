@@ -7,7 +7,7 @@ angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function(
     $stateProvider
         .state('state1', {
             url: '/state1',
-            templateUrl : 'scripts/states/state1.html'
+            templateUrl : 'scripts/states/onboarding.html'
     })
         .state('state2', {
             url: '/state2',
