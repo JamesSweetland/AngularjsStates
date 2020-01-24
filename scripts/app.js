@@ -2,11 +2,11 @@ angular.module('myApp', ['ui.router']);
 
 angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function($stateProvider,$urlRouterProvider){
     // set default state
-    $urlRouterProvider.otherwise("/state1");
+    $urlRouterProvider.otherwise("/onboarding");
     // set up states
     $stateProvider
-        .state('state1', {
-            url: '/state1',
+        .state('onboarding', {
+            url: '/onboarding',
             templateUrl : 'scripts/states/onboarding.html'
     })
         .state('state2', {
