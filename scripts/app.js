@@ -12,10 +12,10 @@
         $stateProvider
                 .state('state1', {
                     url: '/state1',
-                    templateUrl : 'state1.html'
+                    templateUrl : 'scripts/states/state1.html'
                 })
                 .state('state2', {
                     url: '/state2',
-                    templateUrl : 'state2.html'
+                    templateUrl : 'scripts/states/state2.html'
                 })
     }]);
