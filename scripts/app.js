@@ -17,4 +17,16 @@ angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function(
             url: '/race',
             templateUrl : 'scripts/states/race/race.html'
     })
+        .state('casual', {
+            url: '/casual',
+            templateUrl : 'scripts/states/casual/casual.html'
+    })
+        .state('singleplayer', {
+            url: '/singleplayer',
+            templateUrl : 'scripts/states/singleplayer/singleplayer.html'
+    })
+        .state('challenge', {
+            url: '/challenge',
+            templateUrl : 'scripts/states/challenge/challenge.html'
+    })
 }]);
