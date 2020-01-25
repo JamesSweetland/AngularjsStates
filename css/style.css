@@ -1,12 +1,12 @@
 body{
   font-family: "Verdana";
-  background-color: #4d75b3;//blue
-  color: #ffffff;//white
+  background-color: #4d75b3;/*blue*/
+  color: #ffffff;/*white*/
 }
 
 button {
-  background-color: #f44336;//red
-  color: #ffffff;//white
+  background-color: #f44336;/*red*/
+  color: #ffffff;/*white*/
   border: none;
   padding: 10px 20px;
   text-align: center;
@@ -14,7 +14,7 @@ button {
 }
 
 button:hover {
-  background-color: #da190b;//dark red
+  background-color: #da190b;/*dark red*/
 }
 
 .app {
