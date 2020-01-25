@@ -7,14 +7,14 @@ angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function(
     $stateProvider
         .state('onboarding', {
             url: '/onboarding',
-            templateUrl : 'scripts/states/onboarding.html'
+            templateUrl : 'scripts/states/onboarding/onboarding.html'
     })
         .state('queue', {
             url: '/queue',
-            templateUrl : 'scripts/states/queue.html'
+            templateUrl : 'scripts/states/queue/queue.html'
     })
         .state('race', {
             url: '/race',
-            templateUrl : 'scripts/states/race.html'
+            templateUrl : 'scripts/states/race/race.html'
     })
 }]);
