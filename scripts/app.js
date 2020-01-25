@@ -1,9 +1,9 @@
 angular.module('myApp', ['ui.router']);
 
 angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function($stateProvider,$urlRouterProvider){
-    // set default state
+    // sets default state
     $urlRouterProvider.otherwise("/onboarding");
-    // set up states
+    // sets up all the other states of the app
     $stateProvider
         .state('onboarding', {
             url: '/onboarding',
@@ -28,5 +28,13 @@ angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function(
         .state('challenge', {
             url: '/challenge',
             templateUrl : 'scripts/states/challenge/challenge.html'
+    })
+        .state('win', {
+            url: '/win',
+            templateUrl : 'scripts/states/win/win.html'
+    })
+        .state('lose', {
+            url: '/lose',
+            templateUrl : 'scripts/stateslose/lose.html'
     })
 }]);
