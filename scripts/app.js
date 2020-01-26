@@ -42,3 +42,8 @@ angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function(
             templateUrl : 'scripts/states/lose/lose.html'
     })
 }]);
+
+angular.module("myApp").run(function ($rootScope, $state, $stateParams) {
+    $rootScope.$state = $state;
+    $rootScope.$stateParams = $stateParams;
+});
