@@ -1,6 +1,6 @@
 angular.module('myApp', ['ui.router']);
 
-angular.module('myApp').controller('MainController', ['$scope', function($scope) { 
+angular.module('myApp').controller('MainController', ['$scope', function($scope, $state) { 
   $scope.$state = $state;
 }]);
 
