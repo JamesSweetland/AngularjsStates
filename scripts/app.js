@@ -35,6 +35,6 @@ angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function(
     })
         .state('lose', {
             url: '/lose',
-            templateUrl : 'scripts/stateslose/lose.html'
+            templateUrl : 'scripts/states/lose/lose.html'
     })
 }]);
