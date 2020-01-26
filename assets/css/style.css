@@ -17,3 +17,8 @@ button {
 button:hover {
   background-color: #da190b;/*dark red*/
 }
+
+a:link, a:visited {
+  color: #800080;/*purple*/
+}
+
