@@ -1,9 +1,5 @@
 angular.module('myApp', ['ui.router']);
 
-angular.module('myApp').controller('MainController', ['$scope', function($scope, $state) { 
-  $scope.$state = $state;
-}]);
-
 angular.module('myApp').config(['$stateProvider','$urlRouterProvider', function($stateProvider,$urlRouterProvider){
     // sets default state
     $urlRouterProvider.otherwise("/onboarding");
